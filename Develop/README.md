@@ -9,7 +9,7 @@ This repository contains the HTML and CSS files for the Horiseon marketing agenc
 
 A screenshot of what the finished application should look like:
 
-![Screenshot of webpage](Develop/assets/images/HoriseonWebPage.png)
+![Screenshot of webpage](assets/images/HoriseonWebPage.png)
 
 [Link to deployed application]()
 
