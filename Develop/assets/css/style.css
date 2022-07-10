@@ -9,12 +9,16 @@
 }
 
 /* 
-    Back
+    Background color
 */
 
 body {
     background-color: #d9dcd6;
 }
+
+/* 
+    Header formatting and style
+*/
 
 header {
     padding: 20px;
@@ -23,14 +27,18 @@ header {
     color: #ffffff;
 }
 
+/* 
+    h1 display style
+*/
+
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
-    color: #d9dcd6;
-}
+/* 
+    Right-side header style
+*/
 
 header section {
     padding-top: 15px;
@@ -40,9 +48,14 @@ header section {
     font-size: 20px;
 }
 
+/* 
+    Right-side header list style
+*/
+
 header section ul {
     list-style-type: none;
 }
+
 
 header section ul li {
     display: inline-block;
@@ -54,61 +67,10 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
 
-.MainPicture {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
-.benefits {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* 
+    Style of the three head sections listed to the right of the h1
+*/
 
 #search-engine-optimization {
     margin-bottom: 20px;
@@ -137,6 +99,33 @@ aside {
     color: #ffffff;
 }
 
+/* 
+    Style of the main picture below the header
+*/
+
+.MainPicture {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* 
+    style of the content within the main section
+*/
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* 
+    Style of the images in the main content
+*/
+
 #search-engine-optimization img {
     max-height: 200px;
 }
@@ -148,6 +137,10 @@ aside {
 #social-media-marketing img {
     max-height: 200px;
 }
+
+/* 
+    Style of the main content section headers
+*/
 
 #search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -163,6 +156,71 @@ aside {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* 
+    Style of images in the first and third sections of the main content
+*/
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* 
+    Style of image in the second section of the main content
+*/
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* 
+    Style of paragraph text
+*/
+
+p {
+    font-size: 16px;
+}
+
+/* 
+    Style of the aside section on the right side
+*/
+
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* 
+    Style of the benefits section
+*/
+
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* 
+    Style of the footer
+*/
 
 footer {
     padding: 30px;
